@@ -1,0 +1,30 @@
+;
+;	Another Bloody PHP Framework configuration INI file
+;
+
+[database]
+db_hostname 	= "localhost"
+db_username 	= "user"
+db_password 	= "****"
+db_schema 		= "schema"
+
+[logging]
+; Application error logging - should be a bitmask of the following levels
+; LOGGER_ERROR		1;
+; LOGGER_DEBUG		2
+; LOGGER_INFO		4
+; LOGGER_TRACE		8
+; LOGGER_FUNC		16
+; LOGGER_SQL		32
+;
+debug_level			= 1
+
+
+[messaging]
+sms_api_id 			= "123456"
+sms_api_user 		= "xxx123"
+sms_api_password 	= "****"
+
+
+[tracking]
+analytics			= 0
